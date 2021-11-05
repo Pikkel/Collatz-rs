@@ -4,7 +4,7 @@ use std::time::SystemTime;
 fn main() {
     let st = SystemTime::now();
     println!("start");
-    for num in 1..100001 {
+    for num in 1..1000001 {
         let mut num = num;
         loop {
             if num == 1 {
